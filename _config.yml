@@ -11,11 +11,11 @@ pygments: true
 title : stnava
 tagline: better science through better software
 author : Brian B. Avants
-  name : Brian B. Avants
-  email : stnava@gmail.com
-  github : stnava
-  twitter : stnava
-  feedburner : stnava
+name : Brian B. Avants
+email : stnava@gmail.com
+github : stnava
+twitter : stnava
+feedburner : stnava
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -82,7 +82,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : stnava
     livefyre :
       site_id : 123
     intensedebate :
