@@ -8,12 +8,6 @@ tags: [ANTsR, code]
 ---
 {% include JB/setup %}
 
-*R* is a powerful statistical tool that helps one systematize
-reproducible scientific studies.  By interfacing
-[ANTs](http://stnava.github.io/ANTs) with *R*, we hope to provide a
-modern framework for medical analytics, with a focus on imaging-assisted
-prediction and statistical power.
-
 I am currently experimenting with distributing ANTsR binaries in order
 to lower the barrier to entry for new collaborators.
 
