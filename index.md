@@ -3,6 +3,7 @@ layout: page
 category : [ANTsR]
 title: ANTsR 
 tagline: medical imaging in R
+comments:  disqus
 tags: [ANTsR, code]
 ---
 {% include JB/setup %}
