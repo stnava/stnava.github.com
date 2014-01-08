@@ -5,6 +5,22 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 
+
+# Owner/author information
+owner:
+  name:           Brian Avants
+  avatar:         bio-photo.jpg
+  bio:            I develop analysis systems for multidimensional medical datasets that include imaging. My work is aided by open-source projects, ANTs, ANTsR and ITK, open-source toolkits used throughout academia and industry. 
+  email:          stnava@gmail.com
+  # Social networking links are used in author-bio sidebar. Update and remove as you like.
+  twitter:  stnava      
+  facebook: NA
+  github:   stnava      
+  linkedin: stnava    
+  instagram: stnava
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus: https://plus.google.com/b/103483966822330362959/ 
+
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
