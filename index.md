@@ -2,7 +2,7 @@
 layout: page
 category : [stnava]
 title:  Stnava
-tagline: theory-driven, experimentally verified open-source science
+tagline: theory-driven, practical open-source science
 comments:  disqus
 tags: [ANTsR, code]
 ---
