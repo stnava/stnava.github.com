@@ -1,9 +1,13 @@
 ---
 layout: home
-description: "A responsive Jekyll theme with editorial tendencies by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+title:  Stnava
+description: "theory-driven, practical open-source science"
+category : [stnava]
+tags: [ANTsR, code]
 image:
-  feature: texture-feature-01.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
+  feature: cropped-dscf0969.jpg
+  credit: RIP
+  creditlink: ...
+comments:  disqus
 ---
+Hello.
