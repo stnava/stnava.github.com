@@ -1,6 +1,8 @@
 ---
 layout: page
 category : [stnava]
+pygments: true
+markdown: kramdown
 title:  Stnava
 tagline: theory-driven, practical open-source science
 comments:  disqus
