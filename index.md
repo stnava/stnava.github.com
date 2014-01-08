@@ -1,20 +1,9 @@
 ---
-layout: page
-category : [stnava]
-title:  Stnava
-tagline: theory-driven, practical open-source science
-comments:  disqus
-tags: [ANTsR, code]
+layout: home
+description: "A responsive Jekyll theme with editorial tendencies by designer Michael Rose."
+tags: [Jekyll, theme, responsive, blog, template]
+image:
+  feature: texture-feature-01.jpg
+  credit: Texture Lovers
+  creditlink: http://texturelovers.com
 ---
-{% include JB/setup %}
-
-I develop analysis systems for multidimensional medical datasets that
-include imaging. While most of my work focuses on the human brain, I
-have also contributed to the Allen Brain Atlas, Waxholm space,
-non-human primate research and studies of other organ systems such as
-the heart and lung. This
-[WordCloud](http://brianavants.files.wordpress.com/2013/05/avants_wordcloud.jpg)
-summarizes my areas of interest. My work is aided by
-open-source projects, [ANTs](http://www.picsl.upenn.edu/ANTS/) and
-[ANTsR](http://www.picsl.upenn.edu/ANTsR/) (answer), which help us
-disseminate the knowledge we gain through our research. I am also a founder and developer of the [Insight ToolKit](http://www.itk.org), a medical image processing library used throughout academia and industry.
