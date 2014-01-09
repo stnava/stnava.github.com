@@ -19,8 +19,8 @@ systems such as the heart and lung. This
 summarizes my topics of research.
 
 I achieve my research goals with open-source projects,
-[ANTs](http://www.picsl.upenn.edu/ANTS/) and
-[ANTsR](http://www.picsl.upenn.edu/ANTsR/) (answer), which help us
+[ANTs](http://stnava.github.io/ANTs/) and
+[ANTsR](http://stnava.github.io/ANTsR/) (answer), which help us
 share our ideas freely. I am also a founder and developer of the
 [Insight ToolKit](http://www.itk.org).
 
