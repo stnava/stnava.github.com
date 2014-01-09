@@ -2,7 +2,7 @@
 layout: post
 category : lessons
 tagline: "Supporting tagline"
-tags : [ANTsR, personal, tutorial, ANTs, evaluation]
+tags : [tutorial]
 ---
 {% include JB/setup %}
 
