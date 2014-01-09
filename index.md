@@ -1,6 +1,6 @@
 ---
 layout: page
-category : [stnava]
+category : 
 pygments: true
 markdown: kramdown
 title:  stnava
@@ -30,4 +30,3 @@ You may reach me through stnava + gmail.
 
 [About](http://stnava.github.io/pages/about.html), [References](http://scholar.google.com/citations?user=t4kkowgAAAAJ) &
 [wordpress site](http://brianavants.wordpress.com/)
-
