@@ -26,7 +26,7 @@ share our ideas freely. I am also a founder and developer of the
 
 You may reach me through stnava + gmail. 
 
-![surf picture]({{ site.url }}/downloads/steamer_lane2.jpg) for your enjoyment.
+![surf picture]({{ site.url }}/downloads/steamer_lane2.jpg) for enjoyment.
 
 [References](http://scholar.google.com/citations?user=t4kkowgAAAAJ)
 
