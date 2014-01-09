@@ -2,6 +2,8 @@
 layout: page
 title: "About"
 description: ""
+categories : [personal]
+tags: [personal]
 ---
 {% include JB/setup %}
 
