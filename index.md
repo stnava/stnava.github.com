@@ -30,5 +30,5 @@ work synergistically and are used throughout academia and industry.
 
 ![surf picture]({{ site.url }}/downloads/steamer_lane2.jpg)
 
-[About](http://stnava.github.io/pages/about.html), [References](http://scholar.google.com/citations?user=t4kkowgAAAAJ) &
-[wordpress site](http://brianavants.wordpress.com/)
+[About](http://stnava.github.io/pages/about.html), [Google Scholar](http://scholar.google.com/citations?user=t4kkowgAAAAJ),
+[wordpress site](http://brianavants.wordpress.com/), [instagram](http://www.instagram.com/stnava)
