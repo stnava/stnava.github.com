@@ -3,7 +3,7 @@ layout: post
 date: 1-1-1900
 title: "About"
 description: ""
-categories : [personal]
+categories : personal
 tags: [personal]
 ---
 {% include JB/setup %}

@@ -6,7 +6,6 @@ markdown: kramdown
 title:  stnava
 tagline: theory-driven, practical open-source science
 comments:  disqus
-tags: [ANTsR, code]
 ---
 {% include JB/setup %}
 
