@@ -5,7 +5,6 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 
-
 # Owner/author information
 owner:
   name:           Brian Avants
