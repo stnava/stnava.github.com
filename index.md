@@ -10,23 +10,25 @@ tags: [ANTsR, code]
 ---
 {% include JB/setup %}
 
-I develop robust tools to help standardize and understand medical
-images in relation to other data.  While most of my work focuses on
-the human brain, I have also contributed to the Allen Brain Atlas,
-Waxholm space, non-human primate studies and studies of other organ
-systems such as the heart and lung. This
-[WordCloud](http://brianavants.files.wordpress.com/2013/05/avants_wordcloud.jpg)
-summarizes my topics of research.
+I contribute robust tools to help standardize and understand medical
+images in relation to other data.  Modern medical imaging captures the
+dynamic states of the heart or brain in individuals or across
+populations.  With the appropriate data science and analytics tools,
+we can use imaging to help understand personal health, identify
+targets for brain-based intervention studies and measure normative
+values for brain connectivity, blood flow and other aspects of the
+living brain.  Ultimately, these [techniques] (http://brianavants.files.wordpress.com/2013/05/avants_wordcloud.jpg) will help us design
+methods that help the brain adapt to stress, injury, aging,
+disease and the environment.
 
-I achieve my research goals with open-source projects,
+My research is implemented via open-source projects,
 [ANTs](http://stnava.github.io/ANTs/) and
 [ANTsR](http://stnava.github.io/ANTsR/) (answer), which help us
 share our ideas freely. I am also a founder and developer of the
-[Insight ToolKit](http://www.itk.org).
+[Insight ToolKit](http://www.itk.org).  These three pieces of software
+work synergistically and are used throughout academia and industry.
 
-You may reach me through stnava + gmail. 
-
-![surf picture]({{ site.url }}/downloads/steamer_lane2.jpg) for enjoyment.
+![surf picture]({{ site.url }}/downloads/steamer_lane2.jpg)
 
 [About](http://stnava.github.io/pages/about.html), [References](http://scholar.google.com/citations?user=t4kkowgAAAAJ) &
 [wordpress site](http://brianavants.wordpress.com/)
