@@ -3,7 +3,7 @@ layout: page
 category : [stnava]
 pygments: true
 markdown: kramdown
-title:  Stnava
+title:  stnava
 tagline: theory-driven, practical open-source science
 comments:  disqus
 tags: [ANTsR, code]

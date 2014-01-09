@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: post
+date: 1-1-1900
 title: "About"
 description: ""
 categories : [personal]
