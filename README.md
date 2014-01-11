@@ -1,3 +1,23 @@
+# BA notes 
+
+installed 
+
+[jekyll-scholar](https://github.com/inukshuk/jekyll-scholar)
+
+and its dependencies e.g. citeproc etc 
+
+resolved a couple install issues ( see jekyll-scholar issues )
+
+followed the set up done here:  
+
+[by randy morris](https://github.com/randymorris/randymorris.github.com)
+
+which allows one to use jekyll plugins ( ghub doesn't ).
+
+then, as randy morris suggests, i just use git publish-website to push local changes to github.
+
+note: on github, one must change "default branch" to source for this to work.
+
 # Jekyll-Bootstrap
 
 The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
