@@ -1,5 +1,13 @@
 # BA notes 
 
+# to publish a post or page
+
+rake post ... see jekyll help
+jekyll serve
+jekyll build
+git commit / push to origin source
+git publish-website
+
 installed 
 
 [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar)
