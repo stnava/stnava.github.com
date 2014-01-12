@@ -1,0 +1,8 @@
+
+git checkout --orphan gh-pages
+git rm -rf .
+echo " " > .nojekyll
+git add  _site .nojekyll
+git commit -a -m "WIP: website update"
+git push origin gh-pages
+git checkout source
