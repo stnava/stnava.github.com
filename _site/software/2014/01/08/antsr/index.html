@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>ANTsR summary</title>
+    
+    <meta name="author" content="">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+
+    <!-- atom & rss feed -->
+    <link href="" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container-narrow">
+          <a class="brand" href="/">stnava</a>
+          <ul class="nav">
+            
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages.html">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-narrow">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h1>ANTsR summary </h1>
+</div>
+
+<div class="row-fluid post-full">
+  <div class="span12">
+    <div class="date">
+      <span>08 January 2014</span>
+    </div>
+    <div class="content">
+      <p><em>R</em> is a powerful statistical tool that helps one systematize reproducible scientific studies. By interfacing <a href="http://stnava.github.io/ANTs">ANTs</a> with <em>R</em>, we hope to provide a modern framework for medical analytics, with a focus on imaging-assisted prediction and statistical power. Thus, <a href="http://stnava.github.io/ANTsR">ANTsR</a>.</p>
+
+<p>I am currently experimenting with distributing ANTsR binaries in order to lower the barrier to entry for new collaborators.</p>
+
+<p>The <a href="https://dl.dropboxusercontent.com/u/9717050/ANTsR_1.0_R_x86_64-apple-darwin10.8.0.tgz">osx mavericks x86_64 binaries</a></p>
+
+<p>The <a href="https://dl.dropboxusercontent.com/u/9717050/ANTsR_1.0_R_x86_64-pc-linux-gnu.tar.gz">linux x86_64 binaries</a></p>
+
+<p>After you download these, you can install to <em>R</em> from command line with:</p>
+
+<pre><code>$ R CMD INSTALL ANTsR_binaryname.tar.gz</code></pre>
+
+<p>Read <a href="http://stnava.github.io/ANTsR/ANTsRGettingStarted.html">ANTsR Quick Start</a></p>
+
+<p>Complete usage and documentation available at: <a href="http://stnava.github.io/ANTsR/index.html">ANTsR site</a> or through the standard R interface e.g. <code>?antsRegistration</code></p>
+
+<h2 id="by_hand_antsr_installation">“By hand” <em>ANTsR</em> installation</h2>
+
+<p>If you install <em>ANTsR</em> from source, instead of the binaries, you also get <em>ANTs</em> and <a href="http://www.itk.org/">ITK</a> installed. This enables one to use command line tools from <em>ANTs</em> for pre-processing and <em>ANTsR</em> for the final statistical study.</p>
+
+<p>This content is contained in more detail in the script <a href="https://raw.github.com/stnava/RMI/master/stnava/install_anstr_packages.sh">here</a></p>
+
+<p>First, install <a href="http://www.r-project.org/">R</a>, <a href="http://www.cmake.org/">cmake</a> and <a href="http://git-scm.com/">git</a>. In osx, you need <a href="https://developer.apple.com/xcode/">xcode</a> as well.</p>
+
+<p>In <em>R</em>, install dependencies:</p>
+
+<pre><code>install.packages(&quot;Rcpp&quot;,type=&quot;source&quot;)
+mypkg&lt;-c(&quot;signal&quot;,&quot;timeSeries&quot;,&quot;mFilter&quot;,&quot;MASS&quot;,&quot;robust&quot;,&quot;magic&quot;,&quot;knitr&quot;,&quot;pixmap&quot;,&quot;rgl&quot;,&quot;misc3d&quot;)
+for ( x in mypkg ) install.packages(x)</code></pre>
+
+<p>I like to install <em>Rcpp</em> from source to get the most up-to-date version.</p>
+
+<p>Then, outside of R , do</p>
+
+<pre><code>git clone https://github.com/stnava/ANTsR.git
+R CMD INSTALL ANTsR </code></pre>
+
+<p>And you should then have ITK, ANTs and ANTsR.</p>
+
+<h2 id="sample_antsr_session">Sample <em>ANTsR</em> Session</h2>
+
+<p>We believe that variable collections, acting synergistically, may better predict outcomes than individual variables. This idea captures the difference between <em>univariate</em> and <em>multivariate</em> analysis. <em>ANTsR</em> gives one a variety of tools for building multivariate models which we will detail over time via this site and academic papers.</p>
+
+<pre><code>library(ANTsR)
+# assess whether values from one image relate to those of another
+im1&lt;-antsImageRead( getANTsRData(&#39;r16&#39;) ,2)
+im2&lt;-antsImageRead( getANTsRData(&#39;r64&#39;) ,2)
+mat1&lt;-as.matrix( im1 )
+mat2&lt;-as.matrix( im2 )
+sd1&lt;-apply(mat1,FUN=sd,MARGIN=2)
+sd2&lt;-apply(mat2,FUN=sd,MARGIN=2)
+mat1&lt;-mat1[, sd1 &gt; 0  ]
+mat2&lt;-mat2[, sd2 &gt; 0 ]
+ff&lt;-sparseDecom2( inmatrix=list(mat1,mat2), inmask=list(NA,NA),
+   sparseness=c(0.02,0.02) ,nvecs=4 , its=21, perms=0,
+   smooth=0, cthresh=c(0,0), ell1 = -10 )
+print( summary( lm(  ff$projections[,1] ~ as.matrix( ff$projections2 ) ) ) )
+print( summary( lm(  ff$projections[,2] ~ as.matrix( ff$projections2 ) ) ) )</code></pre>
+
+<p>This is a toy example that illustrates <em>image I/O</em>, <em>dimensionality reduction</em> via <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=sparse+canonical+correlation+analysis++avants">sparse canonical correlation analysis</a> and <em>statistical inference</em> with <em>R</em>’s <code>lm</code> function.</p>
+
+<h2 id="todo">To-Do</h2>
+
+<p><em>ANTsR</em> does not pass R CMD check because of a variety of documentation issues.</p>
+    </div>
+
+  
+    <ul class="tag_box inline">
+      <li><i class="icon-folder-open"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/categories.html#software-ref">
+    		software <span>1</span>
+    	</a></li>
+    
+  
+
+
+    </ul>
+    
+
+  
+    <ul class="tag_box inline">
+      <li><i class="icon-tags"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/tags.html#ANTsR-ref">ANTsR <span>2</span></a></li>
+     
+    	<li><a href="/tags.html#example-ref">example <span>1</span></a></li>
+    
+  
+
+
+
+    </ul>
+    
+
+    <hr>
+    <div class="pagination">
+      <ul>
+      
+        <li class="prev"><a href="/lessons/2011/12/29/jekyll-introduction" title="Jekyll Introduction">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next"><a href="/surf/2014/01/09/surf" title="Surfing">Next &rarr;</a></li>
+      
+      </ul>
+    </div>
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'stnava'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+</div>
+
+
+      </div>
+      <hr>
+      <footer>
+        <p>&copy; 2014 
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
+
