@@ -1,0 +1,10 @@
+
+git checkout --orphan gh-pages
+git rm -rf .
+cp -r doc/build/html/* .
+echo " " > .nojekyll
+git add *html _sources/* _images/* _static/* *js *inv .nojekyll
+git commit -a -m "WIP: website update"
+git push origin gh-pages
+git checkout master
+
