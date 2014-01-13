@@ -8,6 +8,7 @@ http://stnava.github.io/pages.html
 http://stnava.github.io/sitemap.txt
 http://stnava.github.io/tags.html
 
+http://stnava.github.io/2014/01/12/jain2012-perfusion-template
 http://stnava.github.io/2014/01/11/baby-ants
 http://stnava.github.io/brain/2014/01/09/visualizable-regression-network
 http://stnava.github.io/surf/2014/01/09/surf
