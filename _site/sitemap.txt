@@ -8,6 +8,7 @@ http://stnava.github.io/pages.html
 http://stnava.github.io/sitemap.txt
 http://stnava.github.io/tags.html
 
+http://stnava.github.io/software/2014/02/27/antsr-install-videoexample
 http://stnava.github.io/brain/2014/01/29/6-tissue-templates
 http://stnava.github.io/brain/2014/01/12/jain2012-perfusion-template
 http://stnava.github.io/brain/2014/01/11/baby-ants
